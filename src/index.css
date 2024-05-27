@@ -29,11 +29,11 @@ form {
   margin: 0px;
   padding: 0px;
   display: flex;
-  flex-direction: column
+  flex-direction: column;
 }
 .homepage {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 .homepage-list {
@@ -44,7 +44,6 @@ form {
 .homepage-ul {
   padding: 0px;
   margin: auto;
- 
 }
 
 .homepage-link {
@@ -53,27 +52,24 @@ form {
   padding: 3px 0px 0px 20px;
 }
 
-.homepage-text {  
+.homepage-text {
   padding-left: 20px;
   padding-right: 20px;
   margin-top: 0px;
   color: gray;
 }
 
-
 .navbar {
   background-color: deepskyblue;
   padding: 15px;
   text-align: center;
   margin-bottom: 15px;
-
 }
-
 
 /* allbeerspage */
 
 .allbeerspage {
-  display: flex
+  display: flex;
 }
 
 .allbeerspage-image {
@@ -87,9 +83,16 @@ form {
 .allbeerspage-tagline {
   font-size: large;
   color: gray;
-  margin: 0px;  
+  margin: 0px;
 }
 
 .allbeerspage-contributed-by {
-  margin: 5px 0px 5px 0px; 
+  margin: 5px 0px 5px 0px;
+}
+
+/* beerdetailspage */
+
+.beerdetailspage-inline-info {
+  display: flex;
+  justify-content: space-between;
 }
